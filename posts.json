@@ -1,125 +1,125 @@
 {
-  "lastUpdated": "2025-12-25T21:02:34Z",
+  "lastUpdated": "2025-12-26T02:04:45Z",
   "posts": [
     {
-      "id": "antigravity-matlab",
+      "id": "antigravity-matlab-is-wicked-good",
       "title": "Antigravity + MATLAB is wicked good",
       "date": "2025-12-24",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/12/24/antigravity-plus-matlab-is-wicked-good/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/12/24/antigravity-plus-matlab-is-wicked-good/?s_tid=feedtopost",
       "categories": [
         "Agentic AI",
         "Agentic App Building"
       ],
-      "views": 277,
-      "viewsLast30Days": 277
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "predictive-maintenance",
+      "id": "winning-a-predictive-maintenance-data-challenge-wi",
       "title": "Winning a Predictive Maintenance Data Challenge with Engineering Expertise",
       "date": "2025-12-16",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/12/16/winning-a-predictive-maintenance-data-challenge-with-engineering-expertise/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/12/16/winning-a-predictive-maintenance-data-challenge-with-engineering-expertise/?s_tid=feedtopost",
       "categories": [
         "AI Application",
         "Conference",
         "Machine Learning"
       ],
-      "views": 228,
-      "viewsLast30Days": 228
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "mcp-coding-guidelines",
+      "id": "matlab-mcp-core-server-update-bringing-your-coding",
       "title": "MATLAB MCP Core Server Update: Bringing Your Coding Guidelines Directly to AI",
       "date": "2025-12-11",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/12/11/matlab-mcp-server-update-bringing-your-coding-guidelines-directly-to-ai/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/12/11/matlab-mcp-server-update-bringing-your-coding-guidelines-directly-to-ai/?s_tid=feedtopost",
       "categories": [
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 289,
-      "viewsLast30Days": 289
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "mcp-client-github",
+      "id": "matlab-mcp-client-is-out-on-github-now",
       "title": "MATLAB MCP Client is out on GitHub now!",
       "date": "2025-12-10",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/12/10/matlab-mcp-client-on-github/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/12/10/matlab-mcp-client-on-github/?s_tid=feedtopost",
       "categories": [
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 375,
-      "viewsLast30Days": 375
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "mcp-hardware",
+      "id": "matlab-mcp-core-server-brings-hardware-into-ai-ass",
       "title": "MATLAB MCP Core Server Brings Hardware into AI-Assisted Engineering",
       "date": "2025-11-18",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/11/18/matlab-mcp-core-server-brings-hardware-into-ai-assisted-engineering/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/11/18/matlab-mcp-core-server-brings-hardware-into-ai-assisted-engineering/?s_tid=feedtopost",
       "categories": [
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 550,
-      "viewsLast30Days": 550
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "mcp-quant-agent",
+      "id": "matlab-mcp-servers-to-develop-and-deploy-a-quant-a",
       "title": "MATLAB MCP servers to develop and deploy a quant agent",
       "date": "2025-11-10",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/11/10/matlab-mcp-servers-to-develop-and-deploy-a-quant-agent/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/11/10/matlab-mcp-servers-to-develop-and-deploy-a-quant-agent/?s_tid=feedtopost",
       "categories": [
         "Agentic AI"
       ],
-      "views": 243,
-      "viewsLast30Days": 243
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "mcp-core-server-release",
+      "id": "releasing-the-matlab-mcp-core-server-on-github",
       "title": "Releasing the MATLAB MCP Core Server on GitHub",
       "date": "2025-11-03",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/11/03/releasing-the-matlab-mcp-core-server-on-github/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/11/03/releasing-the-matlab-mcp-core-server-on-github/?s_tid=feedtopost",
       "categories": [
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 1188,
-      "viewsLast30Days": 1188
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "github-codespaces-motor-control",
+      "id": "matlab-on-github-codespaces-collaborate-on-ai-moto",
       "title": "MATLAB on GitHub Codespaces: Collaborate on AI Motor Control between MATLAB and Simulink users",
       "date": "2025-10-15",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/10/15/matlab-on-github-codespaces-collaborate-on-ai-motor-control-between-matlab-and-simulink-users/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/10/15/matlab-on-github-codespaces-collaborate-on-ai-motor-control-between-matlab-and-simulink-users/?s_tid=feedtopost",
       "categories": [
         "Cloud AI"
       ],
-      "views": 73,
-      "viewsLast30Days": 73
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "pip-uv-matlab-online",
+      "id": "pip-uv-in-matlab-online",
       "title": "pip & uv in MATLAB Online",
       "date": "2025-09-17",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/09/17/pip-uv-in-matlab-online/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/09/17/pip-uv-in-matlab-online/?s_tid=feedtopost",
       "categories": [
         "MATLAB Online",
         "MATLAB with Python",
         "PyTorch"
       ],
-      "views": 55,
-      "viewsLast30Days": 55
+      "views": 0,
+      "viewsLast30Days": 0
     },
     {
-      "id": "google-colab-tensorflow",
+      "id": "matlab-on-google-colab-train-a-model-in-matlab-exp",
       "title": "MATLAB on Google Colab: Train a model in MATLAB, export to TensorFlow, and test in Python",
       "date": "2025-09-04",
-      "url": "https://blogs.mathworks.com/deep-learning/2025/09/04/matlab-on-google-colab-train-a-model-in-matlab-export-to-tensorflow-and-test-in-python/",
+      "url": "https://blogs.mathworks.com/deep-learning/2025/09/04/matlab-on-google-colab-train-a-model-in-matlab-export-to-tensorflow-and-test-in-python/?s_tid=feedtopost",
       "categories": [
         "MATLAB with Python",
         "TensorFlow"
       ],
-      "views": 117,
-      "viewsLast30Days": 117
+      "views": 0,
+      "viewsLast30Days": 0
     }
   ]
 }
