@@ -19,11 +19,9 @@ errors locally, try running from a different network or use the --use-cache flag
 """
 
 import argparse
-import gzip
 import json
 import os
 import re
-import ssl
 import subprocess
 import sys
 import xml.etree.ElementTree as ET
@@ -48,25 +46,18 @@ RSS_FEEDS = [
     "https://blogs.mathworks.com/deep-learning/feed/?paged=3",
 ]
 
-# Request headers - multiple variants to try
-HEADER_VARIANTS = [
-    {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "application/rss+xml, application/xml, text/xml, */*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1",
-    },
-    {
-        "User-Agent": "feedparser/6.0.10 +https://github.com/kurtmckee/feedparser/",
-        "Accept": "*/*",
-    },
-    {
-        "User-Agent": "Googlebot/2.1 (+http://www.google.com/bot.html)",
-        "Accept": "*/*",
-    },
-]
+# Request headers matching the working MikeVsYann approach
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Encoding": "identity",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "keep-alive",
+    "Referer": "https://blogs.mathworks.com/",
+}
 
 
 def create_post_id(title: str) -> str:
@@ -99,57 +90,46 @@ def parse_rss_date(date_str: str) -> Optional[datetime]:
     return None
 
 
-def fetch_with_urllib(url: str) -> Optional[str]:
-    """Try to fetch URL using urllib with various headers."""
-    # Create SSL context that doesn't verify (some environments have cert issues)
-    ctx = ssl.create_default_context()
-
-    for headers in HEADER_VARIANTS:
-        try:
-            req = Request(url, headers=headers)
-            with urlopen(req, timeout=30, context=ctx) as response:
-                if response.status == 200:
-                    data = response.read()
-                    # Handle gzip encoding
-                    if response.headers.get('Content-Encoding') == 'gzip':
-                        data = gzip.decompress(data)
-                    return data.decode('utf-8')
-        except (HTTPError, URLError, TimeoutError):
-            continue
-    return None
-
-
 def fetch_with_curl(url: str) -> Optional[str]:
-    """Try to fetch URL using system curl command."""
+    """Try to fetch URL using system curl command (primary method)."""
     try:
         result = subprocess.run(
             [
-                "curl", "-s", "-L",
-                "-A", "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-                "--compressed",
+                "curl", "-Ls",
+                "-H", "Accept-Encoding: identity",
                 url
             ],
             capture_output=True,
-            text=True,
             timeout=30
         )
-        if result.returncode == 0 and "<?xml" in result.stdout:
-            return result.stdout
+        if result.returncode == 0 and result.stdout:
+            return result.stdout.decode("utf-8", errors="ignore")
     except (subprocess.TimeoutExpired, FileNotFoundError):
+        pass
+    return None
+
+
+def fetch_with_urllib(url: str) -> Optional[str]:
+    """Try to fetch URL using urllib (fallback method)."""
+    try:
+        req = Request(url, headers=HEADERS)
+        with urlopen(req, timeout=30) as response:
+            return response.read().decode("utf-8", errors="ignore")
+    except (HTTPError, URLError, TimeoutError):
         pass
     return None
 
 
 def fetch_rss_feed(url: str) -> Optional[str]:
     """Fetch RSS feed content using multiple methods."""
-    # Try urllib first
-    content = fetch_with_urllib(url)
+    # Try curl first (works better with Akamai)
+    content = fetch_with_curl(url)
     if content and "<?xml" in content:
         return content
 
-    # Try curl as fallback
-    content = fetch_with_curl(url)
-    if content:
+    # Try urllib as fallback
+    content = fetch_with_urllib(url)
+    if content and "<?xml" in content:
         return content
 
     return None
