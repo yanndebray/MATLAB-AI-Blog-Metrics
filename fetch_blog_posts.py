@@ -59,6 +59,9 @@ HEADERS = {
     "Referer": "https://blogs.mathworks.com/",
 }
 
+# Regex to extract view count from blog post HTML
+VIEW_REGEX = re.compile(r'class="icon-watch icon_16"></span>\s*([0-9,]+)\s+views', re.IGNORECASE)
+
 
 def create_post_id(title: str) -> str:
     """Create a URL-friendly ID from a post title."""
@@ -118,6 +121,34 @@ def fetch_with_urllib(url: str) -> Optional[str]:
     except (HTTPError, URLError, TimeoutError):
         pass
     return None
+
+
+def fetch_url(url: str) -> Optional[str]:
+    """Fetch URL content using curl (primary) or urllib (fallback)."""
+    content = fetch_with_curl(url)
+    if content:
+        return content
+    return fetch_with_urllib(url)
+
+
+def fetch_views(url: str) -> int:
+    """Fetch view count from a blog post page."""
+    import html as html_module
+
+    content = fetch_url(url)
+    if not content:
+        return 0
+
+    # Normalize whitespace and HTML entities
+    content = content.replace("\xa0", " ")
+    content = html_module.unescape(content)
+
+    # Extract view count
+    match = VIEW_REGEX.search(content)
+    if match:
+        return int(match.group(1).replace(",", ""))
+
+    return 0
 
 
 def fetch_rss_feed(url: str) -> Optional[str]:
@@ -308,9 +339,22 @@ def main():
         print("\nNo posts found.")
         return 1
 
-    # Load existing data and merge
+    # Fetch view counts for each post
+    print(f"\nFetching view counts for {len(posts)} posts...")
+    for i, post in enumerate(posts, 1):
+        print(f"  [{i}/{len(posts)}] {post['title'][:40]}...", end=" ")
+        views = fetch_views(post['url'])
+        post['views'] = views
+        print(f"{views:,} views")
+
+    # Load existing data and merge (preserve viewsHistory)
     existing_data = load_existing_data()
-    posts = merge_posts(posts, existing_data)
+    existing_by_url = {p['url']: p for p in existing_data.get('posts', [])}
+    for post in posts:
+        if post['url'] in existing_by_url:
+            existing = existing_by_url[post['url']]
+            if 'viewsHistory' in existing:
+                post['viewsHistory'] = existing['viewsHistory']
 
     # Create output data
     output = {
@@ -331,10 +375,12 @@ def main():
     print("=" * 60)
 
     print("\nPosts:")
+    total_views = 0
     for i, post in enumerate(posts, 1):
-        cats = ", ".join(post['categories'][:2]) if post['categories'] else "No category"
-        print(f"  {i:2}. [{post['date']}] {post['title'][:45]}{'...' if len(post['title']) > 45 else ''}")
-        print(f"      Categories: {cats}")
+        views = post.get('views', 0)
+        total_views += views
+        print(f"  {i:2}. [{post['date']}] {views:>6,} views - {post['title'][:40]}{'...' if len(post['title']) > 40 else ''}")
+    print(f"\nTotal views: {total_views:,}")
 
     return 0
 
