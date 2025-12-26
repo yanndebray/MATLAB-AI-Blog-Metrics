@@ -73,8 +73,9 @@ python fetch_blog_posts.py
 1. Fetches RSS feeds from the MATLAB AI Blog
 2. Filters posts by author (Yann Debray) and date (>= September 1, 2025)
 3. Extracts metadata: title, date, URL, categories
-4. Merges with existing `posts.json` to preserve view counts
-5. Outputs updated `posts.json`
+4. Fetches view counts from each individual blog post page
+5. Merges with existing `posts.json` to preserve view history
+6. Outputs updated `posts.json`
 
 ### Network Requirements
 
@@ -87,35 +88,6 @@ The MathWorks blog uses Akamai CDN with bot protection that may block automated 
 | Home network | May be blocked (403) |
 
 When blocked locally, the script gracefully falls back to using existing data from `posts.json`.
-
-### Connecting Analytics
-
-The dashboard requires view count data from an analytics source. Currently supported:
-
-#### Option 1: Google Analytics 4
-
-1. Create a GA4 property or use existing MathWorks analytics
-2. Create a service account with Viewer access
-3. Download the credentials JSON
-4. Add as GitHub secret: `GOOGLE_ANALYTICS_KEY`
-
-#### Option 2: MathWorks Internal Analytics
-
-1. Obtain API token from internal analytics team
-2. Add as GitHub secret: `MATHWORKS_ANALYTICS_TOKEN`
-
-#### Option 3: Manual CSV Upload
-
-Export view data from any analytics dashboard as CSV:
-
-```csv
-url,views
-https://blogs.mathworks.com/deep-learning/2025/12/24/antigravity-plus-matlab-is-wicked-good/,127
-https://blogs.mathworks.com/deep-learning/2025/12/16/winning-a-predictive-maintenance-data-challenge-with-engineering-expertise/,842
-...
-```
-
-Upload to `data/views.csv` and update the script to read from it.
 
 ### GitHub Actions Setup
 
@@ -138,12 +110,18 @@ Enable GitHub Pages:
 matlab-blog-dashboard/
 ├── .github/
 │   └── workflows/
-│       └── update-dashboard.yml    # Daily update workflow
+│       └── deploy.yml              # Build & deploy to GitHub Pages
 ├── src/
-│   └── MATLABBlogDashboard.jsx     # React dashboard component
-├── fetch_blog_posts.py             # Python RSS scraper
+│   ├── BlogDashboard.jsx           # React dashboard component
+│   ├── main.jsx                    # React entry point
+│   └── index.css                   # Tailwind CSS styles
+├── fetch_blog_posts.py             # Python scraper (RSS + view counts)
 ├── posts.json                      # Blog posts and view data
-├── package.json
+├── index.html                      # Vite HTML entry point
+├── vite.config.js                  # Vite configuration
+├── tailwind.config.js              # Tailwind CSS configuration
+├── postcss.config.js               # PostCSS configuration
+├── package.json                    # Node.js dependencies
 └── README.md
 ```
 
