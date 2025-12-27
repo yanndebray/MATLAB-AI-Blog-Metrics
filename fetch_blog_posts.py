@@ -339,6 +339,13 @@ def main():
         print("\nNo posts found.")
         return 1
 
+    # Load existing data first to preserve history
+    existing_data = load_existing_data()
+    existing_by_url = {p['url']: p for p in existing_data.get('posts', [])}
+
+    # Get today's date for history entry
+    today = datetime.now().strftime("%Y-%m-%d")
+
     # Fetch view counts for each post
     print(f"\nFetching view counts for {len(posts)} posts...")
     for i, post in enumerate(posts, 1):
@@ -347,14 +354,17 @@ def main():
         post['views'] = views
         print(f"{views:,} views")
 
-    # Load existing data and merge (preserve viewsHistory)
-    existing_data = load_existing_data()
-    existing_by_url = {p['url']: p for p in existing_data.get('posts', [])}
-    for post in posts:
+        # Preserve existing viewsHistory and append today's entry
         if post['url'] in existing_by_url:
             existing = existing_by_url[post['url']]
-            if 'viewsHistory' in existing:
-                post['viewsHistory'] = existing['viewsHistory']
+            post['viewsHistory'] = existing.get('viewsHistory', [])
+        else:
+            post['viewsHistory'] = []
+
+        # Check if we already have an entry for today
+        today_entry_exists = any(h['date'] == today for h in post['viewsHistory'])
+        if not today_entry_exists:
+            post['viewsHistory'].append({"date": today, "views": views})
 
     # Create output data
     output = {
