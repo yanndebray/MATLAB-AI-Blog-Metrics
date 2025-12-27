@@ -222,7 +222,6 @@ def parse_rss_feed(xml_content: str) -> list[dict]:
                     "url": url,
                     "categories": categories,
                     "views": 0,
-                    "viewsLast30Days": 0,
                 }
 
                 posts.append(post)
@@ -307,7 +306,6 @@ def merge_posts(new_posts: list[dict], existing_data: dict) -> list[dict]:
         if post['url'] in existing_by_url:
             existing = existing_by_url[post['url']]
             post['views'] = existing.get('views', 0)
-            post['viewsLast30Days'] = existing.get('viewsLast30Days', 0)
             if 'viewsHistory' in existing:
                 post['viewsHistory'] = existing['viewsHistory']
         merged.append(post)
