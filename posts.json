@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-28T12:11:42Z",
+  "lastUpdated": "2025-12-29T12:13:29Z",
   "posts": [
     {
       "id": "antigravity-matlab-is-wicked-good",
@@ -10,7 +10,7 @@
         "Agentic AI",
         "Agentic App Building"
       ],
-      "views": 364,
+      "views": 404,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -23,6 +23,10 @@
         {
           "date": "2025-12-28",
           "views": 364
+        },
+        {
+          "date": "2025-12-29",
+          "views": 404
         }
       ]
     },
@@ -36,7 +40,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 235,
+      "views": 237,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -49,6 +53,10 @@
         {
           "date": "2025-12-28",
           "views": 235
+        },
+        {
+          "date": "2025-12-29",
+          "views": 237
         }
       ]
     },
@@ -61,7 +69,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 297,
+      "views": 307,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -74,6 +82,10 @@
         {
           "date": "2025-12-28",
           "views": 297
+        },
+        {
+          "date": "2025-12-29",
+          "views": 307
         }
       ]
     },
@@ -86,7 +98,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 978,
+      "views": 987,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -99,6 +111,10 @@
         {
           "date": "2025-12-28",
           "views": 978
+        },
+        {
+          "date": "2025-12-29",
+          "views": 987
         }
       ]
     },
@@ -111,7 +127,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 526,
+      "views": 528,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -124,6 +140,10 @@
         {
           "date": "2025-12-28",
           "views": 526
+        },
+        {
+          "date": "2025-12-29",
+          "views": 528
         }
       ]
     },
@@ -135,7 +155,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 178,
+      "views": 156,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -148,6 +168,10 @@
         {
           "date": "2025-12-28",
           "views": 178
+        },
+        {
+          "date": "2025-12-29",
+          "views": 156
         }
       ]
     },
@@ -160,7 +184,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 873,
+      "views": 874,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -173,6 +197,10 @@
         {
           "date": "2025-12-28",
           "views": 873
+        },
+        {
+          "date": "2025-12-29",
+          "views": 874
         }
       ]
     },
@@ -184,7 +212,7 @@
       "categories": [
         "Cloud AI"
       ],
-      "views": 59,
+      "views": 61,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -197,6 +225,10 @@
         {
           "date": "2025-12-28",
           "views": 59
+        },
+        {
+          "date": "2025-12-29",
+          "views": 61
         }
       ]
     },
@@ -223,6 +255,10 @@
         {
           "date": "2025-12-28",
           "views": 52
+        },
+        {
+          "date": "2025-12-29",
+          "views": 52
         }
       ]
     },
@@ -235,7 +271,7 @@
         "MATLAB with Python",
         "TensorFlow"
       ],
-      "views": 89,
+      "views": 88,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -248,6 +284,10 @@
         {
           "date": "2025-12-28",
           "views": 89
+        },
+        {
+          "date": "2025-12-29",
+          "views": 88
         }
       ]
     }
