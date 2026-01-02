@@ -2,7 +2,8 @@
 
 A dashboard to track views for blog posts from the [MATLAB AI Blog](https://blogs.mathworks.com/deep-learning/) by Yann Debray since September 1, 2025.
 
-![Dashboard Preview](preview.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a7413479-cf8c-4f0f-a2af-762bc1917724" />
+
 
 ## Features
 
