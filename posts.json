@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-18T12:11:28Z",
+  "lastUpdated": "2026-01-19T12:13:58Z",
   "posts": [
     {
       "id": "reinforcement-learning-on-hardware-explained-by-br",
@@ -10,7 +10,7 @@
         "Embedded AI",
         "Reinforcement Learning"
       ],
-      "views": 482,
+      "views": 505,
       "viewsHistory": [
         {
           "date": "2026-01-14",
@@ -31,6 +31,10 @@
         {
           "date": "2026-01-18",
           "views": 482
+        },
+        {
+          "date": "2026-01-19",
+          "views": 505
         }
       ]
     },
@@ -43,7 +47,7 @@
         "Agentic AI",
         "Agentic App Building"
       ],
-      "views": 1131,
+      "views": 1154,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -140,6 +144,10 @@
         {
           "date": "2026-01-18",
           "views": 1131
+        },
+        {
+          "date": "2026-01-19",
+          "views": 1154
         }
       ]
     },
@@ -153,7 +161,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 1515,
+      "views": 1512,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -250,6 +258,10 @@
         {
           "date": "2026-01-18",
           "views": 1515
+        },
+        {
+          "date": "2026-01-19",
+          "views": 1512
         }
       ]
     },
@@ -262,7 +274,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 191,
+      "views": 190,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -359,6 +371,10 @@
         {
           "date": "2026-01-18",
           "views": 191
+        },
+        {
+          "date": "2026-01-19",
+          "views": 190
         }
       ]
     },
@@ -371,7 +387,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 356,
+      "views": 353,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -468,6 +484,10 @@
         {
           "date": "2026-01-18",
           "views": 356
+        },
+        {
+          "date": "2026-01-19",
+          "views": 353
         }
       ]
     },
@@ -480,7 +500,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 100,
+      "views": 101,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -577,6 +597,10 @@
         {
           "date": "2026-01-18",
           "views": 100
+        },
+        {
+          "date": "2026-01-19",
+          "views": 101
         }
       ]
     },
@@ -588,7 +612,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 71,
+      "views": 75,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -685,6 +709,10 @@
         {
           "date": "2026-01-18",
           "views": 71
+        },
+        {
+          "date": "2026-01-19",
+          "views": 75
         }
       ]
     },
@@ -697,7 +725,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 729,
+      "views": 773,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -794,6 +822,10 @@
         {
           "date": "2026-01-18",
           "views": 729
+        },
+        {
+          "date": "2026-01-19",
+          "views": 773
         }
       ]
     },
@@ -902,6 +934,10 @@
         {
           "date": "2026-01-18",
           "views": 29
+        },
+        {
+          "date": "2026-01-19",
+          "views": 29
         }
       ]
     },
@@ -915,7 +951,7 @@
         "MATLAB with Python",
         "PyTorch"
       ],
-      "views": 28,
+      "views": 23,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1012,6 +1048,10 @@
         {
           "date": "2026-01-18",
           "views": 28
+        },
+        {
+          "date": "2026-01-19",
+          "views": 23
         }
       ]
     },
@@ -1120,6 +1160,10 @@
         },
         {
           "date": "2026-01-18",
+          "views": 82
+        },
+        {
+          "date": "2026-01-19",
           "views": 82
         }
       ]
