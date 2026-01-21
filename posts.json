@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-20T12:13:59Z",
+  "lastUpdated": "2026-01-21T12:14:12Z",
   "posts": [
     {
       "id": "reinforcement-learning-on-hardware-explained-by-br",
@@ -10,7 +10,7 @@
         "Embedded AI",
         "Reinforcement Learning"
       ],
-      "views": 534,
+      "views": 566,
       "viewsHistory": [
         {
           "date": "2026-01-14",
@@ -39,6 +39,10 @@
         {
           "date": "2026-01-20",
           "views": 534
+        },
+        {
+          "date": "2026-01-21",
+          "views": 566
         }
       ]
     },
@@ -51,7 +55,7 @@
         "Agentic AI",
         "Agentic App Building"
       ],
-      "views": 1184,
+      "views": 1212,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -156,6 +160,10 @@
         {
           "date": "2026-01-20",
           "views": 1184
+        },
+        {
+          "date": "2026-01-21",
+          "views": 1212
         }
       ]
     },
@@ -169,7 +177,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 1512,
+      "views": 1518,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -274,6 +282,10 @@
         {
           "date": "2026-01-20",
           "views": 1512
+        },
+        {
+          "date": "2026-01-21",
+          "views": 1518
         }
       ]
     },
@@ -286,7 +298,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 194,
+      "views": 195,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -391,6 +403,10 @@
         {
           "date": "2026-01-20",
           "views": 194
+        },
+        {
+          "date": "2026-01-21",
+          "views": 195
         }
       ]
     },
@@ -403,7 +419,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 350,
+      "views": 354,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -508,6 +524,10 @@
         {
           "date": "2026-01-20",
           "views": 350
+        },
+        {
+          "date": "2026-01-21",
+          "views": 354
         }
       ]
     },
@@ -520,7 +540,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 102,
+      "views": 100,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -625,6 +645,10 @@
         {
           "date": "2026-01-20",
           "views": 102
+        },
+        {
+          "date": "2026-01-21",
+          "views": 100
         }
       ]
     },
@@ -636,7 +660,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 74,
+      "views": 72,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -741,6 +765,10 @@
         {
           "date": "2026-01-20",
           "views": 74
+        },
+        {
+          "date": "2026-01-21",
+          "views": 72
         }
       ]
     },
@@ -753,7 +781,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 801,
+      "views": 806,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -858,6 +886,10 @@
         {
           "date": "2026-01-20",
           "views": 801
+        },
+        {
+          "date": "2026-01-21",
+          "views": 806
         }
       ]
     },
@@ -869,7 +901,7 @@
       "categories": [
         "Cloud AI"
       ],
-      "views": 26,
+      "views": 25,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -974,6 +1006,10 @@
         {
           "date": "2026-01-20",
           "views": 26
+        },
+        {
+          "date": "2026-01-21",
+          "views": 25
         }
       ]
     },
@@ -987,7 +1023,7 @@
         "MATLAB with Python",
         "PyTorch"
       ],
-      "views": 23,
+      "views": 25,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1092,6 +1128,10 @@
         {
           "date": "2026-01-20",
           "views": 23
+        },
+        {
+          "date": "2026-01-21",
+          "views": 25
         }
       ]
     },
@@ -1104,7 +1144,7 @@
         "MATLAB with Python",
         "TensorFlow"
       ],
-      "views": 86,
+      "views": 90,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1209,6 +1249,10 @@
         {
           "date": "2026-01-20",
           "views": 86
+        },
+        {
+          "date": "2026-01-21",
+          "views": 90
         }
       ]
     }
