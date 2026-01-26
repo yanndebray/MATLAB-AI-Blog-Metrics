@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-25T12:12:27Z",
+  "lastUpdated": "2026-01-26T12:14:21Z",
   "posts": [
     {
       "id": "giving-local-ai-agents-the-ability-to-use-matlab-w",
@@ -10,7 +10,7 @@
         "Agentic AI",
         "Local AI"
       ],
-      "views": 206,
+      "views": 226,
       "viewsHistory": [
         {
           "date": "2026-01-22",
@@ -27,6 +27,10 @@
         {
           "date": "2026-01-25",
           "views": 206
+        },
+        {
+          "date": "2026-01-26",
+          "views": 226
         }
       ]
     },
@@ -39,7 +43,7 @@
         "Embedded AI",
         "Reinforcement Learning"
       ],
-      "views": 655,
+      "views": 671,
       "viewsHistory": [
         {
           "date": "2026-01-14",
@@ -88,6 +92,10 @@
         {
           "date": "2026-01-25",
           "views": 655
+        },
+        {
+          "date": "2026-01-26",
+          "views": 671
         }
       ]
     },
@@ -100,7 +108,7 @@
         "Agentic AI",
         "Agentic App Building"
       ],
-      "views": 1002,
+      "views": 991,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -225,6 +233,10 @@
         {
           "date": "2026-01-25",
           "views": 1002
+        },
+        {
+          "date": "2026-01-26",
+          "views": 991
         }
       ]
     },
@@ -238,7 +250,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 1640,
+      "views": 1660,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -363,6 +375,10 @@
         {
           "date": "2026-01-25",
           "views": 1640
+        },
+        {
+          "date": "2026-01-26",
+          "views": 1660
         }
       ]
     },
@@ -375,7 +391,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 209,
+      "views": 207,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -500,6 +516,10 @@
         {
           "date": "2026-01-25",
           "views": 209
+        },
+        {
+          "date": "2026-01-26",
+          "views": 207
         }
       ]
     },
@@ -512,7 +532,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 322,
+      "views": 317,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -637,6 +657,10 @@
         {
           "date": "2026-01-25",
           "views": 322
+        },
+        {
+          "date": "2026-01-26",
+          "views": 317
         }
       ]
     },
@@ -774,6 +798,10 @@
         {
           "date": "2026-01-25",
           "views": 99
+        },
+        {
+          "date": "2026-01-26",
+          "views": 99
         }
       ]
     },
@@ -785,7 +813,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 75,
+      "views": 78,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -910,6 +938,10 @@
         {
           "date": "2026-01-25",
           "views": 75
+        },
+        {
+          "date": "2026-01-26",
+          "views": 78
         }
       ]
     },
@@ -922,7 +954,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 844,
+      "views": 860,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1047,6 +1079,10 @@
         {
           "date": "2026-01-25",
           "views": 844
+        },
+        {
+          "date": "2026-01-26",
+          "views": 860
         }
       ]
     },
@@ -1058,7 +1094,7 @@
       "categories": [
         "Cloud AI"
       ],
-      "views": 32,
+      "views": 34,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1183,6 +1219,10 @@
         {
           "date": "2026-01-25",
           "views": 32
+        },
+        {
+          "date": "2026-01-26",
+          "views": 34
         }
       ]
     },
@@ -1321,6 +1361,10 @@
         {
           "date": "2026-01-25",
           "views": 29
+        },
+        {
+          "date": "2026-01-26",
+          "views": 29
         }
       ]
     },
@@ -1333,7 +1377,7 @@
         "MATLAB with Python",
         "TensorFlow"
       ],
-      "views": 85,
+      "views": 73,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1458,6 +1502,10 @@
         {
           "date": "2026-01-25",
           "views": 85
+        },
+        {
+          "date": "2026-01-26",
+          "views": 73
         }
       ]
     }
