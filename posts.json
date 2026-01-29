@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T12:14:26Z",
+  "lastUpdated": "2026-01-29T12:17:25Z",
   "posts": [
     {
       "id": "giving-local-ai-agents-the-ability-to-use-matlab-w",
@@ -10,7 +10,7 @@
         "Agentic AI",
         "Local AI"
       ],
-      "views": 279,
+      "views": 304,
       "viewsHistory": [
         {
           "date": "2026-01-22",
@@ -39,6 +39,10 @@
         {
           "date": "2026-01-28",
           "views": 279
+        },
+        {
+          "date": "2026-01-29",
+          "views": 304
         }
       ]
     },
@@ -51,7 +55,7 @@
         "Embedded AI",
         "Reinforcement Learning"
       ],
-      "views": 698,
+      "views": 713,
       "viewsHistory": [
         {
           "date": "2026-01-14",
@@ -112,6 +116,10 @@
         {
           "date": "2026-01-28",
           "views": 698
+        },
+        {
+          "date": "2026-01-29",
+          "views": 713
         }
       ]
     },
@@ -261,6 +269,10 @@
         {
           "date": "2026-01-28",
           "views": 972
+        },
+        {
+          "date": "2026-01-29",
+          "views": 972
         }
       ]
     },
@@ -274,7 +286,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 1675,
+      "views": 1668,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -411,6 +423,10 @@
         {
           "date": "2026-01-28",
           "views": 1675
+        },
+        {
+          "date": "2026-01-29",
+          "views": 1668
         }
       ]
     },
@@ -423,7 +439,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 205,
+      "views": 206,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -560,6 +576,10 @@
         {
           "date": "2026-01-28",
           "views": 205
+        },
+        {
+          "date": "2026-01-29",
+          "views": 206
         }
       ]
     },
@@ -572,7 +592,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 323,
+      "views": 311,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -709,6 +729,10 @@
         {
           "date": "2026-01-28",
           "views": 323
+        },
+        {
+          "date": "2026-01-29",
+          "views": 311
         }
       ]
     },
@@ -721,7 +745,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 105,
+      "views": 113,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -858,6 +882,10 @@
         {
           "date": "2026-01-28",
           "views": 105
+        },
+        {
+          "date": "2026-01-29",
+          "views": 113
         }
       ]
     },
@@ -869,7 +897,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 84,
+      "views": 96,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1006,6 +1034,10 @@
         {
           "date": "2026-01-28",
           "views": 84
+        },
+        {
+          "date": "2026-01-29",
+          "views": 96
         }
       ]
     },
@@ -1018,7 +1050,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 910,
+      "views": 928,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1155,6 +1187,10 @@
         {
           "date": "2026-01-28",
           "views": 910
+        },
+        {
+          "date": "2026-01-29",
+          "views": 928
         }
       ]
     },
@@ -1166,7 +1202,7 @@
       "categories": [
         "Cloud AI"
       ],
-      "views": 40,
+      "views": 39,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1303,6 +1339,10 @@
         {
           "date": "2026-01-28",
           "views": 40
+        },
+        {
+          "date": "2026-01-29",
+          "views": 39
         }
       ]
     },
@@ -1316,7 +1356,7 @@
         "MATLAB with Python",
         "PyTorch"
       ],
-      "views": 33,
+      "views": 36,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1453,6 +1493,10 @@
         {
           "date": "2026-01-28",
           "views": 33
+        },
+        {
+          "date": "2026-01-29",
+          "views": 36
         }
       ]
     },
@@ -1465,7 +1509,7 @@
         "MATLAB with Python",
         "TensorFlow"
       ],
-      "views": 87,
+      "views": 90,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1602,6 +1646,10 @@
         {
           "date": "2026-01-28",
           "views": 87
+        },
+        {
+          "date": "2026-01-29",
+          "views": 90
         }
       ]
     }
