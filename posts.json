@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-02T12:17:53Z",
+  "lastUpdated": "2026-02-03T12:17:46Z",
   "posts": [
     {
       "id": "building-an-optimization-agent-with-matlab-mcp-cor",
@@ -9,7 +9,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 192,
+      "views": 225,
       "viewsHistory": [
         {
           "date": "2026-01-30",
@@ -26,6 +26,10 @@
         {
           "date": "2026-02-02",
           "views": 192
+        },
+        {
+          "date": "2026-02-03",
+          "views": 225
         }
       ]
     },
@@ -38,7 +42,7 @@
         "Agentic AI",
         "Local AI"
       ],
-      "views": 348,
+      "views": 370,
       "viewsHistory": [
         {
           "date": "2026-01-22",
@@ -87,6 +91,10 @@
         {
           "date": "2026-02-02",
           "views": 348
+        },
+        {
+          "date": "2026-02-03",
+          "views": 370
         }
       ]
     },
@@ -99,7 +107,7 @@
         "Embedded AI",
         "Reinforcement Learning"
       ],
-      "views": 807,
+      "views": 816,
       "viewsHistory": [
         {
           "date": "2026-01-14",
@@ -180,6 +188,10 @@
         {
           "date": "2026-02-02",
           "views": 807
+        },
+        {
+          "date": "2026-02-03",
+          "views": 816
         }
       ]
     },
@@ -192,7 +204,7 @@
         "Agentic AI",
         "Agentic App Building"
       ],
-      "views": 940,
+      "views": 938,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -349,6 +361,10 @@
         {
           "date": "2026-02-02",
           "views": 940
+        },
+        {
+          "date": "2026-02-03",
+          "views": 938
         }
       ]
     },
@@ -362,7 +378,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 1672,
+      "views": 1667,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -519,6 +535,10 @@
         {
           "date": "2026-02-02",
           "views": 1672
+        },
+        {
+          "date": "2026-02-03",
+          "views": 1667
         }
       ]
     },
@@ -531,7 +551,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 203,
+      "views": 205,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -688,6 +708,10 @@
         {
           "date": "2026-02-02",
           "views": 203
+        },
+        {
+          "date": "2026-02-03",
+          "views": 205
         }
       ]
     },
@@ -700,7 +724,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 320,
+      "views": 318,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -857,6 +881,10 @@
         {
           "date": "2026-02-02",
           "views": 320
+        },
+        {
+          "date": "2026-02-03",
+          "views": 318
         }
       ]
     },
@@ -869,7 +897,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 121,
+      "views": 120,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1026,6 +1054,10 @@
         {
           "date": "2026-02-02",
           "views": 121
+        },
+        {
+          "date": "2026-02-03",
+          "views": 120
         }
       ]
     },
@@ -1037,7 +1069,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 113,
+      "views": 115,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1194,6 +1226,10 @@
         {
           "date": "2026-02-02",
           "views": 113
+        },
+        {
+          "date": "2026-02-03",
+          "views": 115
         }
       ]
     },
@@ -1206,7 +1242,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 1002,
+      "views": 1017,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1363,6 +1399,10 @@
         {
           "date": "2026-02-02",
           "views": 1002
+        },
+        {
+          "date": "2026-02-03",
+          "views": 1017
         }
       ]
     },
@@ -1530,6 +1570,10 @@
         },
         {
           "date": "2026-02-02",
+          "views": 44
+        },
+        {
+          "date": "2026-02-03",
           "views": 44
         }
       ]
@@ -1701,6 +1745,10 @@
         {
           "date": "2026-02-02",
           "views": 38
+        },
+        {
+          "date": "2026-02-03",
+          "views": 38
         }
       ]
     },
@@ -1713,7 +1761,7 @@
         "MATLAB with Python",
         "TensorFlow"
       ],
-      "views": 94,
+      "views": 92,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1870,6 +1918,10 @@
         {
           "date": "2026-02-02",
           "views": 94
+        },
+        {
+          "date": "2026-02-03",
+          "views": 92
         }
       ]
     }
