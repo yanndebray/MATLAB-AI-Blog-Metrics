@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-18T12:24:38Z",
+  "lastUpdated": "2026-03-19T12:19:17Z",
   "posts": [
     {
       "id": "automate-the-documentation-of-your-matlab-analysis",
@@ -9,7 +9,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 476,
+      "views": 453,
       "viewsHistory": [
         {
           "date": "2026-02-10",
@@ -158,6 +158,10 @@
         {
           "date": "2026-03-18",
           "views": 476
+        },
+        {
+          "date": "2026-03-19",
+          "views": 453
         }
       ]
     },
@@ -169,7 +173,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 670,
+      "views": 671,
       "viewsHistory": [
         {
           "date": "2026-01-30",
@@ -362,6 +366,10 @@
         {
           "date": "2026-03-18",
           "views": 670
+        },
+        {
+          "date": "2026-03-19",
+          "views": 671
         }
       ]
     },
@@ -374,7 +382,7 @@
         "Agentic AI",
         "Local AI"
       ],
-      "views": 356,
+      "views": 370,
       "viewsHistory": [
         {
           "date": "2026-01-22",
@@ -599,6 +607,10 @@
         {
           "date": "2026-03-18",
           "views": 356
+        },
+        {
+          "date": "2026-03-19",
+          "views": 370
         }
       ]
     },
@@ -611,7 +623,7 @@
         "Embedded AI",
         "Reinforcement Learning"
       ],
-      "views": 275,
+      "views": 264,
       "viewsHistory": [
         {
           "date": "2026-01-14",
@@ -868,6 +880,10 @@
         {
           "date": "2026-03-18",
           "views": 275
+        },
+        {
+          "date": "2026-03-19",
+          "views": 264
         }
       ]
     },
@@ -1213,6 +1229,10 @@
         {
           "date": "2026-03-18",
           "views": 737
+        },
+        {
+          "date": "2026-03-19",
+          "views": 737
         }
       ]
     },
@@ -1226,7 +1246,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 53,
+      "views": 54,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1559,6 +1579,10 @@
         {
           "date": "2026-03-18",
           "views": 53
+        },
+        {
+          "date": "2026-03-19",
+          "views": 54
         }
       ]
     },
@@ -1904,6 +1928,10 @@
         {
           "date": "2026-03-18",
           "views": 120
+        },
+        {
+          "date": "2026-03-19",
+          "views": 120
         }
       ]
     },
@@ -1916,7 +1944,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 216,
+      "views": 219,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -2249,6 +2277,10 @@
         {
           "date": "2026-03-18",
           "views": 216
+        },
+        {
+          "date": "2026-03-19",
+          "views": 219
         }
       ]
     },
@@ -2261,7 +2293,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 102,
+      "views": 106,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -2594,6 +2626,10 @@
         {
           "date": "2026-03-18",
           "views": 102
+        },
+        {
+          "date": "2026-03-19",
+          "views": 106
         }
       ]
     },
@@ -2938,6 +2974,10 @@
         {
           "date": "2026-03-18",
           "views": 120
+        },
+        {
+          "date": "2026-03-19",
+          "views": 120
         }
       ]
     },
@@ -2950,7 +2990,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 1636,
+      "views": 1667,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -3283,6 +3323,10 @@
         {
           "date": "2026-03-18",
           "views": 1636
+        },
+        {
+          "date": "2026-03-19",
+          "views": 1667
         }
       ]
     },
@@ -3627,6 +3671,10 @@
         {
           "date": "2026-03-18",
           "views": 35
+        },
+        {
+          "date": "2026-03-19",
+          "views": 35
         }
       ]
     },
@@ -3640,7 +3688,7 @@
         "MATLAB with Python",
         "PyTorch"
       ],
-      "views": 59,
+      "views": 49,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -3973,6 +4021,10 @@
         {
           "date": "2026-03-18",
           "views": 59
+        },
+        {
+          "date": "2026-03-19",
+          "views": 49
         }
       ]
     },
@@ -3985,7 +4037,7 @@
         "MATLAB with Python",
         "TensorFlow"
       ],
-      "views": 73,
+      "views": 83,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -4318,6 +4370,10 @@
         {
           "date": "2026-03-18",
           "views": 73
+        },
+        {
+          "date": "2026-03-19",
+          "views": 83
         }
       ]
     }
