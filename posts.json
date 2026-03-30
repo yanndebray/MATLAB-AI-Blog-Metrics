@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T12:16:38Z",
+  "lastUpdated": "2026-03-30T12:27:08Z",
   "posts": [
     {
       "id": "automate-the-documentation-of-your-matlab-analysis",
@@ -9,7 +9,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 342,
+      "views": 315,
       "viewsHistory": [
         {
           "date": "2026-02-10",
@@ -202,6 +202,10 @@
         {
           "date": "2026-03-29",
           "views": 342
+        },
+        {
+          "date": "2026-03-30",
+          "views": 315
         }
       ]
     },
@@ -450,6 +454,10 @@
         {
           "date": "2026-03-29",
           "views": 652
+        },
+        {
+          "date": "2026-03-30",
+          "views": 652
         }
       ]
     },
@@ -462,7 +470,7 @@
         "Agentic AI",
         "Local AI"
       ],
-      "views": 306,
+      "views": 315,
       "viewsHistory": [
         {
           "date": "2026-01-22",
@@ -731,6 +739,10 @@
         {
           "date": "2026-03-29",
           "views": 306
+        },
+        {
+          "date": "2026-03-30",
+          "views": 315
         }
       ]
     },
@@ -1044,6 +1056,10 @@
         {
           "date": "2026-03-29",
           "views": 170
+        },
+        {
+          "date": "2026-03-30",
+          "views": 170
         }
       ]
     },
@@ -1056,7 +1072,7 @@
         "Agentic AI",
         "Agentic App Building"
       ],
-      "views": 629,
+      "views": 621,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1433,6 +1449,10 @@
         {
           "date": "2026-03-29",
           "views": 629
+        },
+        {
+          "date": "2026-03-30",
+          "views": 621
         }
       ]
     },
@@ -1446,7 +1466,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 47,
+      "views": 48,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -1823,6 +1843,10 @@
         {
           "date": "2026-03-29",
           "views": 47
+        },
+        {
+          "date": "2026-03-30",
+          "views": 48
         }
       ]
     },
@@ -1835,7 +1859,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 108,
+      "views": 112,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -2212,6 +2236,10 @@
         {
           "date": "2026-03-29",
           "views": 108
+        },
+        {
+          "date": "2026-03-30",
+          "views": 112
         }
       ]
     },
@@ -2224,7 +2252,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 217,
+      "views": 208,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -2601,6 +2629,10 @@
         {
           "date": "2026-03-29",
           "views": 217
+        },
+        {
+          "date": "2026-03-30",
+          "views": 208
         }
       ]
     },
@@ -2990,6 +3022,10 @@
         {
           "date": "2026-03-29",
           "views": 119
+        },
+        {
+          "date": "2026-03-30",
+          "views": 119
         }
       ]
     },
@@ -3001,7 +3037,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 136,
+      "views": 134,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -3378,6 +3414,10 @@
         {
           "date": "2026-03-29",
           "views": 136
+        },
+        {
+          "date": "2026-03-30",
+          "views": 134
         }
       ]
     },
@@ -3390,7 +3430,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 1825,
+      "views": 1856,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -3767,6 +3807,10 @@
         {
           "date": "2026-03-29",
           "views": 1825
+        },
+        {
+          "date": "2026-03-30",
+          "views": 1856
         }
       ]
     },
@@ -3778,7 +3822,7 @@
       "categories": [
         "Cloud AI"
       ],
-      "views": 32,
+      "views": 23,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -4155,6 +4199,10 @@
         {
           "date": "2026-03-29",
           "views": 32
+        },
+        {
+          "date": "2026-03-30",
+          "views": 23
         }
       ]
     },
@@ -4545,6 +4593,10 @@
         {
           "date": "2026-03-29",
           "views": 27
+        },
+        {
+          "date": "2026-03-30",
+          "views": 27
         }
       ]
     },
@@ -4933,6 +4985,10 @@
         },
         {
           "date": "2026-03-29",
+          "views": 93
+        },
+        {
+          "date": "2026-03-30",
           "views": 93
         }
       ]
