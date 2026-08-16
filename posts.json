@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T12:41:41Z",
+  "lastUpdated": "2026-08-16T12:43:27Z",
   "posts": [
     {
       "id": "less-typing-more-creating-matlab-copilot-comes-to",
@@ -11,7 +11,7 @@
         "Generative AI",
         "MATLAB Online"
       ],
-      "views": 127,
+      "views": 137,
       "viewsHistory": [
         {
           "date": "2026-04-08",
@@ -532,6 +532,10 @@
         {
           "date": "2026-08-15",
           "views": 127
+        },
+        {
+          "date": "2026-08-16",
+          "views": 137
         }
       ]
     },
@@ -544,7 +548,7 @@
         "Deep Learning",
         "Embedded AI"
       ],
-      "views": 107,
+      "views": 110,
       "viewsHistory": [
         {
           "date": "2026-04-07",
@@ -1069,6 +1073,10 @@
         {
           "date": "2026-08-15",
           "views": 107
+        },
+        {
+          "date": "2026-08-16",
+          "views": 110
         }
       ]
     },
@@ -1080,7 +1088,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 265,
+      "views": 267,
       "viewsHistory": [
         {
           "date": "2026-02-10",
@@ -1829,6 +1837,10 @@
         {
           "date": "2026-08-15",
           "views": 265
+        },
+        {
+          "date": "2026-08-16",
+          "views": 267
         }
       ]
     },
@@ -1840,7 +1852,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 141,
+      "views": 142,
       "viewsHistory": [
         {
           "date": "2026-01-30",
@@ -2633,6 +2645,10 @@
         {
           "date": "2026-08-15",
           "views": 141
+        },
+        {
+          "date": "2026-08-16",
+          "views": 142
         }
       ]
     },
@@ -2645,7 +2661,7 @@
         "Agentic AI",
         "Local AI"
       ],
-      "views": 374,
+      "views": 370,
       "viewsHistory": [
         {
           "date": "2026-01-22",
@@ -3470,6 +3486,10 @@
         {
           "date": "2026-08-15",
           "views": 374
+        },
+        {
+          "date": "2026-08-16",
+          "views": 370
         }
       ]
     },
@@ -3482,7 +3502,7 @@
         "Embedded AI",
         "Reinforcement Learning"
       ],
-      "views": 107,
+      "views": 101,
       "viewsHistory": [
         {
           "date": "2026-01-14",
@@ -4339,6 +4359,10 @@
         {
           "date": "2026-08-15",
           "views": 107
+        },
+        {
+          "date": "2026-08-16",
+          "views": 101
         }
       ]
     },
@@ -4351,7 +4375,7 @@
         "Agentic AI",
         "Agentic App Building"
       ],
-      "views": 212,
+      "views": 214,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -5284,6 +5308,10 @@
         {
           "date": "2026-08-15",
           "views": 212
+        },
+        {
+          "date": "2026-08-16",
+          "views": 214
         }
       ]
     },
@@ -5297,7 +5325,7 @@
         "Conference",
         "Machine Learning"
       ],
-      "views": 63,
+      "views": 62,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -6230,6 +6258,10 @@
         {
           "date": "2026-08-15",
           "views": 63
+        },
+        {
+          "date": "2026-08-16",
+          "views": 62
         }
       ]
     },
@@ -6242,7 +6274,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 94,
+      "views": 95,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -7175,6 +7207,10 @@
         {
           "date": "2026-08-15",
           "views": 94
+        },
+        {
+          "date": "2026-08-16",
+          "views": 95
         }
       ]
     },
@@ -7187,7 +7223,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 89,
+      "views": 91,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -8120,6 +8156,10 @@
         {
           "date": "2026-08-15",
           "views": 89
+        },
+        {
+          "date": "2026-08-16",
+          "views": 91
         }
       ]
     },
@@ -8132,7 +8172,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 73,
+      "views": 74,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -9065,6 +9105,10 @@
         {
           "date": "2026-08-15",
           "views": 73
+        },
+        {
+          "date": "2026-08-16",
+          "views": 74
         }
       ]
     },
@@ -9076,7 +9120,7 @@
       "categories": [
         "Agentic AI"
       ],
-      "views": 87,
+      "views": 88,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -10009,6 +10053,10 @@
         {
           "date": "2026-08-15",
           "views": 87
+        },
+        {
+          "date": "2026-08-16",
+          "views": 88
         }
       ]
     },
@@ -10021,7 +10069,7 @@
         "Agentic AI",
         "Generative AI"
       ],
-      "views": 1278,
+      "views": 1256,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -10954,6 +11002,10 @@
         {
           "date": "2026-08-15",
           "views": 1278
+        },
+        {
+          "date": "2026-08-16",
+          "views": 1256
         }
       ]
     },
@@ -10965,7 +11017,7 @@
       "categories": [
         "Cloud AI"
       ],
-      "views": 67,
+      "views": 68,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -11898,6 +11950,10 @@
         {
           "date": "2026-08-15",
           "views": 67
+        },
+        {
+          "date": "2026-08-16",
+          "views": 68
         }
       ]
     },
@@ -11911,7 +11967,7 @@
         "MATLAB with Python",
         "PyTorch"
       ],
-      "views": 224,
+      "views": 227,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -12844,6 +12900,10 @@
         {
           "date": "2026-08-15",
           "views": 224
+        },
+        {
+          "date": "2026-08-16",
+          "views": 227
         }
       ]
     },
@@ -12856,7 +12916,7 @@
         "MATLAB with Python",
         "TensorFlow"
       ],
-      "views": 144,
+      "views": 145,
       "viewsHistory": [
         {
           "date": "2025-12-26",
@@ -13789,6 +13849,10 @@
         {
           "date": "2026-08-15",
           "views": 144
+        },
+        {
+          "date": "2026-08-16",
+          "views": 145
         }
       ]
     }
